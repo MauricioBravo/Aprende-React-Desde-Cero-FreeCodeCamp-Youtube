@@ -18,7 +18,7 @@ h1{
 .App{
   min-height: 100vh; /* Para que se adapte a la altura del navegador y tome el 100% verticalmente*/
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;/* ESTE Y EL ANTERIOR CAUSAN EL ESPACIO ENTRE BORDE TOP Y EL PRIMER COMP*/
   align-items: center;
   justify-content: center; /* centra los elementos horizontalmente y verticalmente*/
   text-align: center;
@@ -33,9 +33,3 @@ h1{
   justify-content: center;
 }
 
-
-
-imagen-testimonio{
-    width: 200px;
-    height: 100px;
-}

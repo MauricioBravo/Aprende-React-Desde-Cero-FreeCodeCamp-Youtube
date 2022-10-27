@@ -1,15 +1,15 @@
 import React from "react";
 import '../style-sheets/Testimonio.css';
 
-export function Testimonio(){ //un componente funcional es una funcion de js
+export function Testimonio(props){ //un componente funcional es una funcion de js, entre parentecis van los "props"
 
   return ( //un componente funcional de react retorna un elemento  de jsx
     <div className='contenedor-testimonio'>
-        <img className='imagen-testimonio' src={require('../imagenes/Con los Pibes.jpg')} alt='foto con amigos'/>
+        <img className='imagen-testimonio' src={require(`../imagenes/${props.imagen}.jpg`)} alt='foto con amigos'/>
         <div className='contenedor-texto-testimonio'>
-          <p className='nombre-testimonio'>Uno de los mejores días de mi vida</p>
-          <p className="historia-testimonio">Mis amigos, mi novia y la patineta</p>
-          <p className="texto-testimonio">Esta foto inmortaliza el día que cumplí un sueño, desde chico lo buscaba.</p> {/* si no anda probar con comillas simples */}
+          <p className='nombre-testimonio'>{props.nombre}</p>
+          <p className="historia-testimonio">{props.historia}</p> 
+          <p className="texto-testimonio">{props.texto} </p> {/* si no anda probar con comillas simples */}
         </div>
     </div>
   );    
