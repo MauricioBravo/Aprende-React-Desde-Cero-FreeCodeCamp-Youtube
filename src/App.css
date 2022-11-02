@@ -13,6 +13,8 @@ h1{
   font-weight: 700;
   line-height: 1.1;
   margin: 40px 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .App{
@@ -27,7 +29,8 @@ h1{
 
 .contenedor-principal{
   min-height: 100px; /* asi dependiendo de la cantidad de testimonios que tengamos(componentes) el contenedor se va a adaptar */ 
-  
+  display:flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
