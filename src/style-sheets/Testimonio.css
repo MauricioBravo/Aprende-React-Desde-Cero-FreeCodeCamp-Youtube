@@ -1,5 +1,7 @@
 .contenedor-testimonio{
-    width: 1170px;
+
+    min-width: 1170px;
+    max-width: 1400px;
     height: 368px;
     margin: 10px 10px 50px;
     display: flex;
@@ -11,8 +13,8 @@
 .imagen-testimonio{
     height: 100%;
     width: auto;
+    max-width: 600px;
     justify-content: left;
-    
 }
 .contenedor-texto-testimonio{
     text-align: center;
@@ -20,7 +22,7 @@
     font-family: Lato, sans-serif;
     font-weight: 400;
     line-height: auto;  
-    word-wrap: break-word;  
+
 }
 
 .nombre-testimonio{
@@ -35,4 +37,6 @@
 .texto-testimonio{
     font-size: 1.1rem;
     text-align: justify;
+    font-size: min(1em, 5px);
+    font-size: min(1em, 14px);
 }
