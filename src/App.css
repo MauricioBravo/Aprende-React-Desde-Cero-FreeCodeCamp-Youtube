@@ -27,8 +27,7 @@ h1{
 
 .contenedor-principal{
   min-height: 100px; /* asi dependiendo de la cantidad de testimonios que tengamos(componentes) el contenedor se va a adaptar */ 
-  display:flex;
-  flex-wrap: wrap;
+  
   align-items: center;
   justify-content: center;
 }
