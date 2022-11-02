@@ -5,7 +5,7 @@ export function Testimonio(props){ //un componente funcional es una funcion de j
 
   return ( //un componente funcional de react retorna un elemento  de jsx
     <div className='contenedor-testimonio'>
-        <img className='imagen-testimonio' src={require(`../imagenes/${props.imagen}.jpg`)} alt='foto con amigos'/>
+        <img className='imagen-testimonio' src={require(`../imagenes/${props.imagen}.jpg`)} alt='foto con amigos' />
         <div className='contenedor-texto-testimonio'>
           <p className='nombre-testimonio'>{props.nombre}</p>
           <p className="historia-testimonio">{props.historia}</p> 
